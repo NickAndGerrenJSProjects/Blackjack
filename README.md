@@ -1,8 +1,4 @@
 # Blackjack
-<<<<<<< HEAD
-## updating the readme for testing
-![db schema](./assets/databaseschema.png)
-=======
 BlackJack Database
 ![](./assets/databaseschema d.png)
 
@@ -61,4 +57,3 @@ The cards in the current game accociated with the current dealer.
 cardfk - Reference to the card deck. This is how we know what the actual card is in their hand. It will give us access to values of the card like, the pip value, and the image accociated with the card.
 
 handvalue- Summation of the pip values of the dealer's hand.
->>>>>>> c66d9d0977c0bb1df6c2d48256790c8eee646bc5
