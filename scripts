@@ -1,0 +1,30 @@
+Generate users table:
+node_modules/.bin/sequelize model:create --name users --attributes username:text,password:text,money:integer
+
+Generate game table: 
+node_modules/.bin/sequelize model:create --name game --attributes playersfk:integer,dealerfk:integer
+
+Generate usergamestate table:
+node_modules/.bin/sequelize model:create --name usergamestate --attributes playerfk:integer,gamefk:integer,handvalue:integer,playermoney:integer,pot:integer,phase:integer
+
+Generate playercards table: 
+node_modules/.bin/sequelize model:create --name playercards --attributes gamefk:integer,gamestatefk:integer,cardsfk:integer
+
+Generate dealer table: 
+node_modules/.bin/sequelize model:create --name dealer --attributes cardsfk:integer,handvalue:integer
+
+Generate deck table: 
+node_modules/.bin/sequelize model:create --name deck --attributes pipvalue:integer,pipface:text,image:text
+
+Ignore the stuff below, we're going to be referencing it later.
+============================================================================================================================
+DO BELOW AFTER RUNNING NPM INSTALL:
+node_modules/.bin/sequelize db:migrate
+ 
+psql munchkin < node_modules/connect-pg-simple/table.sql
+
+HAVE TO RUN THIS AFTER DEPLOYING TO HEROKU:
+heroku pg:psql postgresql-asymmetrical-99798 --app peaceful-hamlet-61670 < node_modules/connect-pg-simple/table.sql
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+try
+psql -U postgres munchkin < node_modules/connect-pg-simple/table.sql

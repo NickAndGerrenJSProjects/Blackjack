@@ -1,6 +1,7 @@
 # Blackjack
-BlackJack Database
-![](./assets/databaseschema d.png)
+## Blackjack Database
+
+![](./assets/updatedschema.png)
 
 ## users table
 Stores the information about the current users account username and password and the money the user has to bet on in game.
