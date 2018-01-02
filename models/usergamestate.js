@@ -11,8 +11,8 @@ module.exports = (sequelize, DataTypes) => {
     classMethods: {
       associate: function(models) {
         // associations can be defined here
-        usergamestate.belongsTo(models.users);
-        usergamestate.belongsTo(models.game);
+        usergamestate.belongsTo(users);
+        usergamestate.belongsTo(game);
       }
     }
   });

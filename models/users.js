@@ -2,7 +2,7 @@
 module.exports = (sequelize, DataTypes) => {
   var users = sequelize.define('users', {
     username: DataTypes.TEXT,
-    password: DataTypes.TEXT,
+    password: DataTypes.TEX,
     money: DataTypes.INTEGER
   }, {
     classMethods: {

@@ -14,13 +14,13 @@ module.exports = {
       pipface: {
         type: Sequelize.TEXT
       },
-      pipsuit: {
+      pipsuit:{
         type: Sequelize.TEXT
       },
       image: {
         type: Sequelize.TEXT
       },
-      imageback: {
+      imageBack:{
         type: Sequelize.TEXT
       },
       createdAt: {

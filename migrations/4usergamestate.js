@@ -17,7 +17,7 @@ module.exports = {
       },
       gamefk: {
         type: Sequelize.INTEGER,
-        references: {
+        references:{
           model:'game',
           key:'id'
         }

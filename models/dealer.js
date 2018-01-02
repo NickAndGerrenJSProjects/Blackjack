@@ -1,7 +1,8 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   var dealer = sequelize.define('dealer', {
-    cardsfk: DataTypes.INTEGER
+    cardsfk: DataTypes.INTEGER,
+    handvalue: DataTypes.INTEGER
   }, {
     classMethods: {
       associate: function(models) {
