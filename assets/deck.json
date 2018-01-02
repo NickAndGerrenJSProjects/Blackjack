@@ -1,0 +1,315 @@
+{
+ "deck": [
+   {
+     "pipvalue": 2,
+     "pipface": "two",
+     "pipsuit": "clubs",
+     "image": "blackjack/assets/cardsImages/2C.png"
+   },
+   {
+     "pipvalue": 2,
+     "pipface": "two",
+     "pipsuit": "diamonds",
+     "image": "blackjack/assets/cardsImages/2D.png"
+   },
+   {
+    "pipvalue": 2,
+     "pipface": "two",
+     "pipsuit": "hearts",
+     "image": "blackjack/assets/cardsImages/2H.png"
+   },
+   {
+    "pipvalue": 2,
+     "pipface": "two",
+     "pipsuit": "spades",
+     "image": "blackjack/assets/cardsImages/2S.png"
+   },
+   {
+    "pipvalue": 3,
+     "pipface": "three",
+     "pipsuit": "clubs",
+     "image": "blackjack/assets/cardsImages/3C.png"
+   },
+   {
+    "pipvalue": 3,
+     "pipface": "three",
+     "pipsuit": "diamonds",
+     "image": "blackjack/assets/cardsImages/3D.png"
+   },
+   {
+    "pipvalue": 3,
+     "pipface": "three",
+     "pipsuit": "hearts",
+     "image": "blackjack/assets/cardsImages/3H.png"
+   },
+   {
+    "pipvalue": 3,
+     "pipface": "three",
+     "pipsuit": "spades",
+     "image": "blackjack/assets/cardsImages/3S.png"
+   },
+   {
+    "pipvalue": 4,
+     "pipface": "four",
+     "pipsuit": "clubs",
+     "image": "blackjack/assets/cardsImages/4C.png"
+   },
+   {
+    "pipvalue": 4,
+     "pipface": "four",
+     "pipsuit": "diamonds",
+     "image": "blackjack/assets/cardsImages/4D.png"
+   },{
+    "pipvalue": 4,
+     "pipface": "four",
+     "pipsuit": "hearts",
+     "image": "blackjack/assets/cardsImages/4H.png"
+   },
+   {
+    "pipvalue": 4,
+     "pipface": "four",
+     "pipsuit": "spades",
+     "image": "blackjack/assets/cardsImages/4S.png"
+   },
+   {
+    "pipvalue": 5,
+     "pipface": "five",
+     "pipsuit": "clubs",
+     "image": "blackjack/assets/cardsImages/5C.png"
+   },
+   {
+    "pipvalue": 5,
+     "pipface": "five",
+     "pipsuit": "diamonds",
+     "image": "blackjack/assets/cardsImages/5D.png"
+   },
+   {
+    "pipvalue": 5,
+     "pipface": "five",
+     "pipsuit": "hearts",
+     "image": "blackjack/assets/cardsImages/5H.png"
+   },
+   {
+    "pipvalue": 5,
+     "pipface": "five",
+     "pipsuit": "spades",
+     "image": "blackjack/assets/cardsImages/5S.png"
+   },
+   {
+    "pipvalue": 6,
+     "pipface": "six",
+     "pipsuit": "clubs",
+     "image": "blackjack/assets/cardsImages/6C.png"
+   },
+   {
+    "pipvalue": 6,
+     "pipface": "six",
+     "pipsuit": "diamonds",
+     "image": "blackjack/assets/cardsImages/6D.png"
+   },
+   {
+    "pipvalue": 6,
+     "pipface": "six",
+     "pipsuit": "hearts",
+     "image": "blackjack/assets/cardsImages/6H.png"
+   },
+   {
+    "pipvalue": 6,
+     "pipface": "six",
+     "pipsuit": "spades",
+     "image": "blackjack/assets/cardsImages/6S.png"
+   },
+   {
+    "pipvalue": 7,
+     "pipface": "seven",
+     "pipsuit": "clubs",
+     "image": "blackjack/assets/cardsImages/7C.png"
+   },
+   {
+    "pipvalue": 7,
+     "pipface": "seven",
+     "pipsuit": "diamonds",
+     "image": "blackjack/assets/cardsImages/7D.png"
+   },
+   {
+    "pipvalue": 7,
+     "pipface": "seven",
+     "pipsuit": "hearts",
+     "image": "blackjack/assets/cardsImages/7H.png"
+   },
+   {
+    "pipvalue": 7,
+     "pipface": "seven",
+     "pipsuit": "spades",
+     "image": "blackjack/assets/cardsImages/7S.png"
+   },
+   {
+    "pipvalue": 8,
+     "pipface": "eight",
+     "pipsuit": "clubs",
+     "image": "blackjack/assets/cardsImages/8C.png"
+   },
+   {
+    "pipvalue": 8,
+     "pipface": "eight",
+     "pipsuit": "diamonds",
+     "image": "blackjack/assets/cardsImages/8D.png"
+   },
+   {
+    "pipvalue": 8,
+     "pipface": "eight",
+     "pipsuit": "hearts",
+     "image": "blackjack/assets/cardsImages/8H.png"
+   },
+   {
+    "pipvalue": 8,
+     "pipface": "eight",
+     "pipsuit": "spades",
+     "image": "blackjack/assets/cardsImages/8S.png"
+   },
+   {
+    "pipvalue": 9,
+     "pipface": "nine",
+     "pipsuit": "clubs",
+     "image": "blackjack/assets/cardsImages/9C.png"
+   },
+   {
+    "pipvalue": 9,
+     "pipface": "nine",
+     "pipsuit": "diamonds",
+     "image": "blackjack/assets/cardsImages/9D.png"
+   },
+   {
+    "pipvalue": 9,
+     "pipface": "nine",
+     "pipsuit": "hearts",
+     "image": "blackjack/assets/cardsImages/9H.png"
+   },
+   {
+    "pipvalue": 9,
+     "pipface": "nine",
+     "pipsuit": "spades",
+     "image": "blackjack/assets/cardsImages/9S.png"
+   },
+   {
+    "pipvalue": 10,
+     "pipface": "ten",
+     "pipsuit": "clubs",
+     "image": "blackjack/assets/cardsImages/10C.png"
+   },
+   {
+    "pipvalue": 10,
+     "pipface": "ten",
+     "pipsuit": "diamonds",
+     "image": "blackjack/assets/cardsImages/10D.png"
+   },
+   {
+    "pipvalue": 10,
+     "pipface": "ten",
+     "pipsuit": "hearts",
+     "image": "blackjack/assets/cardsImages/10H.png"
+   },
+   {
+    "pipvalue": 10,
+     "pipface": "ten",
+     "pipsuit": "spades",
+     "image": "blackjack/assets/cardsImages/10S.png"
+   },
+   {
+    "pipvalue": 10,
+     "pipface": "jack",
+     "pipsuit": "clubs",
+     "image": "blackjack/assets/cardsImages/JC.png"
+   },
+   {
+    "pipvalue": 10,
+     "pipface": "jack",
+     "pipsuit": "diamonds",
+     "image": "blackjack/assets/cardsImages/JD.png"
+   },
+   {
+    "pipvalue": 10,
+     "pipface": "jack",
+     "pipsuit": "hearts",
+     "image": "blackjack/assets/cardsImages/JH.png"
+   },
+   {
+    "pipvalue": 10,
+     "pipface": "jack",
+     "pipsuit": "spades",
+     "image": "blackjack/assets/cardsImages/JS.png"
+   },
+   {
+    "pipvalue": 10,
+     "pipface": "queen",
+     "pipsuit": "clubs",
+     "image": "blackjack/assets/cardsImages/QC.png"
+   },   
+   {
+    "pipvalue": 10,
+     "pipface": "queen",
+     "pipsuit": "diamonds",
+     "image": "blackjack/assets/cardsImages/QD.png"
+   },
+   {
+    "pipvalue": 10,
+     "pipface": "queen",
+     "pipsuit": "hearts",
+     "image": "blackjack/assets/cardsImages/QH.png"
+   },
+   {
+    "pipvalue": 10,
+     "pipface": "queen",
+     "pipsuit": "spades",
+     "image": "blackjack/assets/cardsImages/QS.png"
+   },
+   {
+    "pipvalue": 10,
+     "pipface": "king",
+     "pipsuit": "clubs",
+     "image": "blackjack/assets/cardsImages/KC.png"
+   },
+   {
+    "pipvalue": 10,
+     "pipface": "king",
+     "pipsuit": "diamonds",
+     "image": "blackjack/assets/cardsImages/KD.png"
+   },
+   {
+    "pipvalue": 10,
+     "pipface": "king",
+     "pipsuit": "hearts",
+     "image": "blackjack/assets/cardsImages/KH.png"
+   },
+   {
+    "pipvalue": 10,
+     "pipface": "king",
+     "pipsuit": "spades",
+     "image": "blackjack/assets/cardsImages/KS.png"
+   },
+   {
+    "pipvalue": 11,
+     "pipface": "ace",
+     "pipsuit": "clubs",
+     "image": "blackjack/assets/cardsImages/AC.png"
+   },
+   {
+    "pipvalue": 11,
+     "pipface": "ace",
+     "pipsuit": "diamonds",
+     "image": "blackjack/assets/cardsImages/AD.png"
+   },
+   {
+    "pipvalue": 11,
+     "pipface": "ace",
+     "pipsuit": "hearts",
+     "image": "blackjack/assets/cardsImages/AH.png"
+   },
+   {
+    "pipvalue": 11,
+     "pipface": "ace",
+     "pipsuit": "spades",
+     "image": "blackjack/assets/cardsImages/AS.png"
+   }
+ ]
+}
