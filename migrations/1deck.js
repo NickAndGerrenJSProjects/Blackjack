@@ -14,6 +14,9 @@ module.exports = {
       pipface: {
         type: Sequelize.TEXT
       },
+      suit:{
+        type: Sequelize.TEXT
+      },
       image: {
         type: Sequelize.TEXT
       },
