@@ -1,0 +1,16 @@
+{
+  "deck": [
+    {
+      "pipvalue": 2,
+      "pipface": "two",
+      "pipsuit": "clubs",
+      "image": "blackjack/assets/cardsImages/2C.png"
+    },
+    {
+      "pipvalue": 2,
+      "pipface": "two",
+      "pipsuit": "diamonds",
+      "image": "blackjack/assets/cardsImages/2D.png"
+    }
+  ]
+}
