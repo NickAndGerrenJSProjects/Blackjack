@@ -1,21 +1,27 @@
 const database = require("../index");
 
-// deck.addCard = function( cardObject ) {
-//   let currentDate = new Date();
-//   cardObject["createdAt"] = currentDate;
-//   cardObject["updatedAt"] = currentDate;
+const INSERT_CARD_QUERY = `INSERT INTO deck 
+  (pipvalue,pipface,pipsuit,image,"imageBack","createdAt","updatedAt") 
+  VALUES($1,$2,$3,$4,$5,$6,$7) 
+  RETURNING id`;
 
-//   return database.one('INSERT INTO deck (pipvalue,pipface,pipsuit,image,"imageBack","createdAt","updatedAt") VALUES(${pipvalue},${pipface},${pipsuit},${image},${imageBack},${createdAt},${updatedAt}) RETURNING id',
-//   {
-//     pipvalue: cardObject.pipvalue,
-//     pipface: cardObject.pipface,
-//     pipsuit: cardObject.pipsuit,
-//     image: cardObject.image,
-//     imageBack: cardObject.imageBack,
-//     createdAt: cardObject.createdAt,
-//     updatedAt: cardObject.updatedAt
-//   })
-//   .catch((error) => {
-//     console.log(error);
-//   })
-// };
+const addCard = cardObject => {
+  let currentDate = new Date();
+  cardObject["createdAt"] = currentDate;
+  cardObject["updatedAt"] = currentDate;
+
+  const VALUES = [cardObject.pipvalue,
+    cardObject.pipface,
+    cardObject.pipsuit,
+    cardObject.image,
+    cardObject.imageBack,
+    cardObject.createdAt,
+    cardObject.updatedAt];
+
+  return database.one(INSERT_CARD_QUERY, VALUES)
+    .catch((error) => {
+      console.log(error);
+    })
+};
+
+module.exports = addCard;

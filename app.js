@@ -50,14 +50,13 @@ app.use(function(err, req, res, next) {
 });
 
 
-
+//TEST YOUR CRUD FUNCTIONS HERE!!!
 //console.log(deckContent.deck.length);
 const fs = require("fs");
 const deck = fs.readFileSync("./assets/deck.json");
 const deckContent = JSON.parse(deck);
 const deckTable = require("./db/deck");
 
-const deleteFunction = require('./db/deleteFunction');
 
 let cardObject = {
   pipvalue: deckContent.deck[0].pipvalue,
@@ -67,9 +66,7 @@ let cardObject = {
   imageBack: "blackjack/assets/cardsImages/red_back.png"
 };
 
-deckTable.deleteCard(3);
-
-//deckTable.deleteCard(1);
-
+//deckTable.addCard(cardObject); 
+//deckTable.deleteCard(7);
 
 module.exports = app;
