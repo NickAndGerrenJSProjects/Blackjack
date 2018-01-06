@@ -59,8 +59,7 @@ module.exports = {
       {pipvalue: 11, pipface: "ace", pipsuit: "diamonds", image: "blackjack/assets/cardsImages/AD.png", imageBack: "blackjack/assets/cardsImages/red_back.png", createdAt: new Date(), updatedAt: new Date() },
       {pipvalue: 11, pipface: "ace", pipsuit: "hearts", image: "blackjack/assets/cardsImages/AH.png", imageBack: "blackjack/assets/cardsImages/red_back.png", createdAt: new Date(), updatedAt: new Date() },
       {pipvalue: 11, pipface: "ace", pipsuit: "spades", image: "blackjack/assets/cardsImages/AS.png", imageBack: "blackjack/assets/cardsImages/red_back.png", createdAt: new Date(), updatedAt: new Date() },
-      
-    ], {} );
+      ], {} );
   },
   down: (queryInterface, Sequelize) => {
     //return queryInterface.dropTable('playercards');

@@ -9,6 +9,7 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       cardsfk: {
+        allowNull: true,
         type: Sequelize.INTEGER,
         references:{
           model:'deck',
